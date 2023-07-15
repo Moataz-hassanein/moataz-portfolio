@@ -8,7 +8,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Home = () => {
   const text = "Hi, I'm Moataz";
-  const des = "I make websites";
+  const des = "I make aplactions";
   const { light } = useContext(DataContext);
 
   return (
