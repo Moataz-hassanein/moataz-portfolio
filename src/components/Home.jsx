@@ -60,10 +60,14 @@ const Home = () => {
             className="flex items-center gap-1 border-2 border-[#008080] rounded-full px-2 py-1 w-fit mt-2 hover:bg-white cursor-pointer"
             style={{ boxShadow: "0px 0px 10px 0px rgba(0,128,128,0.39)" }}
           >
-            <a href="/resume.pdf" download={true}>
+            <a
+              className="flex items-center gap-1"
+              href="/resume.pdf"
+              download={true}
+            >
               Resume
+              <BsFillPersonLinesFill />
             </a>
-            <BsFillPersonLinesFill />
           </div>
         </div>
         <div className="sm:w-2/5">
