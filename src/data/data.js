@@ -90,4 +90,11 @@ export const projects = [
       "https://res.cloudinary.com/dqnef0x7y/image/upload/v1700822804/Moataz-Portfolio/dalle_qp76kx.png",
     category: "FullStack",
   },
+  {
+    link: "https://game-craze-tech.netlify.app/",
+    name: "Game Craze Tech",
+    image:
+      "https://res.cloudinary.com/dqnef0x7y/image/upload/v1700864231/Moataz-Portfolio/gametech_izxsbo.png",
+    category: "FullStack",
+  },
 ];
