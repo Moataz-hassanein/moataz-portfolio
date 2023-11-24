@@ -39,20 +39,7 @@ export const projects = [
       "https://res.cloudinary.com/dqnef0x7y/image/upload/v1688995141/Moataz-Portfolio/Photographer_u1movq.jpg",
     category: "HTML&CSS",
   },
-  {
-    link: "https://moataz-hassanein.github.io/Social-Project/",
-    name: "Social App",
-    image:
-      "https://res.cloudinary.com/dqnef0x7y/image/upload/v1689196002/Social_iiw4dd.png",
-    category: "HTML&CSS",
-  },
-  {
-    link: "https://moataz-hassanein.github.io/The-Office-Project/",
-    name: "The Office",
-    image:
-      "https://res.cloudinary.com/dqnef0x7y/image/upload/v1688995141/Moataz-Portfolio/office_tc3bw5.jpg",
-    category: "HTML&CSS",
-  },
+
   {
     link: "https://expenses-175ee5.netlify.app/",
     name: "Expenses Tracker",
@@ -67,18 +54,40 @@ export const projects = [
       "https://res.cloudinary.com/dqnef0x7y/image/upload/v1688995143/Moataz-Portfolio/food_p244b0.png",
     category: "React",
   },
-  {
-    link: "https://todo-todones-app.netlify.app/",
-    name: "Todo App",
-    image:
-      "https://res.cloudinary.com/dqnef0x7y/image/upload/v1688995141/Moataz-Portfolio/todo_htpbvs.png",
-    category: "React",
-  },
+
   {
     link: "https://github.com/Moataz-hassanein/Bulls-and-Cows",
     name: "Bulls and Cows",
     image:
       "https://res.cloudinary.com/dqnef0x7y/image/upload/v1688995142/Moataz-Portfolio/bac_kfekeg.png",
     category: "JavaScript",
+  },
+  {
+    link: "https://prompt-me.netlify.app/",
+    name: "Prompt Me",
+    image:
+      "https://res.cloudinary.com/dqnef0x7y/image/upload/v1700822804/Moataz-Portfolio/promptme_nz22bx.png",
+    category: "FullStack",
+  },
+  {
+    link: "https://moviespopcorn.netlify.app/",
+    name: "Movies Popcorn",
+    image:
+      "https://res.cloudinary.com/dqnef0x7y/image/upload/v1700822802/Moataz-Portfolio/moviespopcorn_ztnh1w.png",
+    category: "React",
+  },
+  {
+    link: "https://hangmanguessaword.netlify.app/",
+    name: "Hang Man",
+    image:
+      "https://res.cloudinary.com/dqnef0x7y/image/upload/v1700822801/Moataz-Portfolio/hangman_yc5odn.png",
+    category: "TypeScript",
+  },
+  {
+    link: "https://image-dalle.netlify.app/",
+    name: "Dalle",
+    image:
+      "https://res.cloudinary.com/dqnef0x7y/image/upload/v1700822804/Moataz-Portfolio/dalle_qp76kx.png",
+    category: "FullStack",
   },
 ];

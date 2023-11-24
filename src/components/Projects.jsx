@@ -28,21 +28,26 @@ const Projects = () => {
     >
       <h2 className="text-4xl text-center sm:text-7xl ">Projects</h2>
       <div className="mt-10 border-b w-fit pb-2">
-        {["All", "HTML&CSS", "JavaScript", "React", "FullStack"].map(
-          (category) => (
-            <button
-              key={category}
-              className={` rounded-full p-0.5 m-1 sm:p-2 sm:m-2 text-xs  sm:text-xl ${
-                category === selectedCategory
-                  ? " text-[#008080]"
-                  : "border-2 border-white shadow-sm shadow-white text-white "
-              }`}
-              onClick={() => handleFilter(category)}
-            >
-              {category}
-            </button>
-          )
-        )}
+        {[
+          "All",
+          "HTML&CSS",
+          "JavaScript",
+          "React",
+          "FullStack",
+          "TypeScript",
+        ].map((category) => (
+          <button
+            key={category}
+            className={` rounded-full p-0.5 m-1 sm:p-2 sm:m-2 text-xs  sm:text-xl ${
+              category === selectedCategory
+                ? " text-[#008080]"
+                : "border-2 border-white shadow-sm shadow-white text-white "
+            }`}
+            onClick={() => handleFilter(category)}
+          >
+            {category}
+          </button>
+        ))}
       </div>
       <div className="sm:grid sm:grid-cols-2 sm:gap-10 justify-items-center  pt-8 hidden">
         {filteredProjects.map((project, index) => (
